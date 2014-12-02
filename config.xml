@@ -1,0 +1,18 @@
+<widget 
+  xmlns="http://www.w3.org/ns/widgets" version="2.0.1" 
+  xmlns:cdv="http://cordova.apache.org/ns/1.0" id="Sensors">
+  <name>MapMe</name>
+  <description>Application Basique</description>
+  <preference name="fullscreen" value="true"/>
+  <preference name="webviewbounce" value="true"/>
+  <preference name="orientation" value="portrait"/>
+  <preference name="BackgroundColor" value="0xff262626"/>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <icon src="images/icon.png"/>
+  <rim:permissions>
+    <rim:permit>run_when_backgrounded</rim:permit>
+    <rim:permit>access_location_services</rim:permit>
+  </rim:permissions>
+  <author email="@dominique.com" href="http://google.com">Dominique DERRIER</author>
+</widget>
